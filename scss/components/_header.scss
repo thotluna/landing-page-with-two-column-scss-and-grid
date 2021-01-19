@@ -1,0 +1,37 @@
+.header {
+    padding-top: $lateral-padding;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media(min-width: $vp-tablet) {
+        padding-top: 64px;
+    }
+
+
+    img {
+        width: 21.33vw;
+        max-width: 166px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        width: 164px;
+        @media(min-width: $vp-tablet) {
+            width: 296px;
+        }
+
+        .nav-item {
+            display: inline;
+            a {
+                text-decoration: none;
+                font-size: .75em;
+                @media(min-width: $vp-tablet) {
+                    font-family: $heading-font;
+                    font-size: 1rem;
+                }
+            }
+
+        }
+    }
+}

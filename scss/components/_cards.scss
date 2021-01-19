@@ -1,0 +1,72 @@
+.card {
+    background-color: white;
+    padding: 1em 1.5em;
+    box-shadow: 2px 2px 5px $Light-Gray;
+    border-radius: 5px;
+    width: 77.86vw;
+    max-width: 360px;
+    margin: 12px auto;
+
+    @media(min-width: $vp-desktop) {
+        margin: 12px 0;
+        padding: 1.5em 2.125em;
+    }
+}
+
+.card__text {
+    text-align: justify;
+}
+
+.card__quotes {
+    @media(min-width: $vp-desktop) {
+        width: 12px;
+        height: 11.5px;
+    }
+
+}
+
+.card__parraph {
+    font-size: 11px;
+    line-height: 1.5;
+    font-style: italic;
+    @media(min-width: $vp-desktop) {
+        font-size: 14px;
+    }
+}
+
+.card__avatar {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.card__img {
+    width: 1.5em;
+    border-radius: 50%;
+    margin-right: .5em;
+}
+
+.card__user {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.card__user-name {
+
+    padding: 0;
+    margin: 0;
+    font-size: 11px;
+    font-family: $body-font;
+    font-weight: 700;
+}
+
+.card__user-position {
+    padding: 0;
+    margin: 0;
+    font-size: 7px;
+    font-family: $body-font;
+}

@@ -1,0 +1,43 @@
+.access-early {
+    background-color: $Desaturated-Blue;
+    padding-top: 3.0em;
+    padding-bottom: 3.75em;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    @media(min-width: $vp-desktop){
+        flex-direction: row;
+        text-align: start;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+
+}
+
+.access-early__text {
+    flex: 1;
+}
+
+.access-early__form {
+    flex: 1;
+}
+
+.access-early__title {
+    font-size: 18px;
+    @media(min-width: $vp-desktop){
+        font-size: 2rem;
+    }
+    
+}
+.access-early__parraph{
+    
+    margin: 0.5em 0.5em;
+    font-size: 15px;
+    line-height: 1.5;
+    @media(min-width: $vp-desktop){
+        font-size: 1rem;
+        width: 70%;
+    }
+}
+

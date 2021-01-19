@@ -1,0 +1,29 @@
+/* viewport */
+$vp-movil: 375px;
+$vp-movil_l:425px;
+$vp-tablet: 768px;
+$vp-desktop: 1024px;
+$vp-desktop-l:1440px;
+
+/* color */
+
+$Very-Dark-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+
+$Bright-Blue: hsl(224, 93%, 58%);
+$Bright-Blue-light: hsl(224, 96%, 64%);
+$Moderate-Cyan: hsl(170, 45%, 43%);
+
+$Light-Grayish-Blue: hsl(240, 75%, 98%);
+$back: #F8F8FE;
+$Light-Gray: hsl(0, 0%, 75%);
+
+/* typography */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+$heading-font: 'Raleway', sans-serif;
+$body-font: 'Open Sans', sans-serif;
+
+/* other variables */
+$lateral-padding: 24px;
+$lateral-padding-large: 80px;

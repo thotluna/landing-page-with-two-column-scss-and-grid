@@ -1,0 +1,33 @@
+html {
+    font-family: $body-font;
+    font-size: 16px;
+    color: $Very-Dark-Blue;
+    min-width: 375px;
+}
+
+.hidden {
+    display: none;
+}
+
+.content {
+    margin: auto;
+    max-width: 1440px;
+    text-align: center;
+}
+
+.padding-width {
+    padding-left: $lateral-padding;
+    padding-right: $lateral-padding;
+    @media(min-width: $vp-tablet){
+        padding-left: $lateral-padding-large;
+        padding-right: $lateral-padding-large;
+    }
+}
+.padding-width {
+    padding-left: 30px;
+    padding-right: 30px;
+    @media(min-width: $vp-tablet){
+        padding-left: $lateral-padding-large;
+        padding-right: $lateral-padding-large;
+    }
+}

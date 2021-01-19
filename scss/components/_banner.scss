@@ -1,0 +1,113 @@
+.banner__image {
+    @media(min-width: $vp-desktop) {
+        order: 2;
+    }
+
+
+    img {
+        width: 81.066vw;
+        max-width: 640px;
+    }
+}
+
+.productive .banner__image img {
+    width: 84.8vw;
+    max-width: 542px;
+}
+
+.banner--wrapper {
+    padding-top: 6.125em;
+    padding-bottom: 3.5em;
+}
+
+.banner--provision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media(min-width: $vp-desktop) {
+        flex-direction: row;
+    }
+}
+
+.banner__text--margin-top {
+    margin-top: 2.5em;
+}
+
+.banner__text--aling {
+    text-align: center;
+
+    @media(min-width: $vp-desktop) {
+        text-align: start;
+    }
+}
+
+.banner__title {
+    font-family: $heading-font;
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 39px 0 22px;
+
+    @media(min-width: $vp-desktop) {
+        font-size: 2.5rem;
+    }
+}
+
+.banner__title--small {
+    font-size: 1rem;
+
+    @media(min-width: $vp-desktop) {
+        font-size: 2.5rem;
+    }
+}
+
+.baner__parraph {
+    font-size: .875rem;
+    line-height: 1.5;
+    margin: 1em;
+
+    @media(min-width: $vp-desktop) {
+        font-size: 1.125rem;
+    }
+}
+
+.baner__parraph--small {
+    text-align: justify;
+    margin: 0;
+
+    @media(min-width: $vp-desktop) {
+        font-size: 1rem;
+        text-align: start;
+    }
+}
+
+.banner__parraph--margin-bottom {
+    margin-bottom: 1.1em;
+}
+
+.banner__link {
+    display: inline-flex;
+    align-items: center;
+    margin: 1.7em 0;
+    border-bottom: 2px solid $Moderate-Cyan;
+
+}
+
+.banner__link-a {
+    color: $Moderate-Cyan;
+    font-size: .75rem;
+    text-decoration: none;
+    padding: .666em;
+
+}
+
+.productive {
+    background: url('../../images/bg-curve-mobile.svg') no-repeat top center/contain,
+        linear-gradient(0deg, $back 96%, white 50%);
+        @media(min-width: $vp-tablet){
+            background: url('../../images/bg-curve-desktop.svg') no-repeat top center,
+        linear-gradient(0deg, $back 94%, white 50%);
+        }
+}
+

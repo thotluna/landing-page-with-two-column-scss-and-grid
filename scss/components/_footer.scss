@@ -1,0 +1,80 @@
+.footer {
+    background-color: $Very-Dark-Blue;
+    color: white;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    text-align: start;
+
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: $body-font;
+        display: block;
+        line-height: 1.5;
+        padding: .5em .5em .5em 0;
+        &:hover {
+            color: $Bright-Blue;
+        }
+    }
+}
+
+.footer__logo {
+    margin-bottom: .75em;
+    width: 180px;
+    height: 52.37px;
+    filter: contrast(0%) brightness(176%)
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4em;
+    @media(min-width: $vp-tablet){
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-row: repeat(2, 1fr);
+        align-items: flex-start;
+    }
+    @media(min-width: $vp_desktop){
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+}
+
+.location__item {
+    display: flex;
+    width: 250px;
+    justify-content:start;
+    align-items: center;
+    margin: .5em 1em
+}
+
+.footer__icon {
+    margin-right: 1em;
+}
+
+
+.footer__menu{
+    text-align: start;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__btn-social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 2em;
+    height: 2em;
+    margin: .5em;
+    &:hover {
+        color: $Bright-Blue;
+        border: 1px solid $Bright-Blue;
+    }
+}
